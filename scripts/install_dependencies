@@ -6,7 +6,7 @@ rpm -Uhv http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7
 
 
 yum -y install mc yum-cron ntp ntsysv wget elinks httpd fontconfig libpng libXau rsync mailx unrar mutt sysstat mutt net-tools
-yum -y install php56w php56w-devel php56w-gd php56w-intl php56w-opcache php56w-mysql php56w-pdo php56w-mbstring php56w-mysql php56w-pear php56w-pecl-memcache php56w-pspell php56w-soap php56w-xml php56w-xmlrpc php56w-mcrypt 
+yum install -y php php-devel php-gd php-intl php-mbstring php-mysql php-pear php-pecl-apc php-pecl-memcache php-pspell php-soap php-xml php-xmlrpc php-mcrypt 
 yum -y groupinstall Development tools
 yum -y install zlib-devel
 yum -y update
