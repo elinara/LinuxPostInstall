@@ -19,4 +19,6 @@ firewall-cmd --reload
 systemctl enable httpd.service
 systemctl restart httpd.service
 
+chmod -R 755 /var/www/html
+
 mkdir /mnt/storage
