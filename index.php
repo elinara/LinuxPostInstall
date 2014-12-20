@@ -1,3 +1,5 @@
 <?php
+echo "alus";
 phpinfo();
+
 ?>
